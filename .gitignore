@@ -1,8 +1,8 @@
-/LaQueli
-/LaQueli.egg-info
-/LaQueli.png
-/LaQueli.py
-/LaQueli.spec
+/bleachbit
+/bleachbit.egg-info
+/bleachbit.png
+/bleachbit.py
+/bleachbit.spec
 /cleaners
 /COPYING
 /data
@@ -10,9 +10,9 @@
 /doc
 /Makefile
 /MANIFEST.in
-/org.LaQueli.LaQueli.desktop
-/org.LaQueli.LaQueli.metainfo.xml
-/org.LaQueli.policy
+/org.bleachbit.BleachBit.desktop
+/org.bleachbit.BleachBit.metainfo.xml
+/org.bleachbit.policy
 /PKG-INFO
 /po
 /setup.cfg
