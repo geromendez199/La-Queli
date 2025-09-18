@@ -1,42 +1,67 @@
-# BleachBit
+# La Queli 🧹✨
 
-BleachBit cleans files to free disk space and to maintain privacy.
+**La Queli** es un software libre y gratuito para limpiar y optimizar Windows de manera rápida, simple y efectiva. Su objetivo es eliminar archivos innecesarios, liberar espacio en disco y mejorar el rendimiento del sistema operativo sin complicaciones.
 
-## Running from source
+Inspirado en la idea de que hasta la computadora más rebelde necesita “una buena pasada con el trapo”, **La Queli** busca ser tu asistente digital de confianza para mantener tu PC fresca y ágil.
 
-To run BleachBit without installation, unpack the tarball and then run these
-commands:
+---
 
-    make -C po local # build translations
-    python3 bleachbit.py
+## 🚀 Características principales
 
-Then, review the preferences.
+- Eliminación de archivos temporales de Windows.
+- Limpieza de cachés de navegadores (Chrome, Firefox, Edge, etc.).
+- Gestión de historiales y registros innecesarios.
+- Interfaz sencilla y directa, pensada para usuarios comunes y técnicos.
+- Código abierto y adaptable a tus necesidades.
 
-Then, select some options, and click Preview.  Review the files, toggle options accordingly, and click Delete.
+---
 
-For information regarding the command line interface, run:
+## 📥 Instalación
 
-     python3 bleachbit.py --help
+1. Descargá la última versión desde [Releases](https://github.com/geromendez199/La-Queli/releases).
+2. Extraé el archivo.
+3. Ejecutá `laqueli.exe` en Windows.
+4. Listo, tu compu ya está en manos de **La Queli**.
 
-## Links
+---
 
-* [BleachBit home 
-page](https://www.bleachbit.org)
-* [Support](https://www.bleachbit.org/help)
-* [Documentation](https://docs.bleachbit.org)
-* [Translate in Weblate](https://hosted.weblate.org/projects/bleachbit/): under evaluation
+## 🖥️ Uso
 
+Abrí **La Queli**, seleccioná las opciones de limpieza que quieras, y presioná el botón **“Limpiar”**.  
+La aplicación se encargará del resto mientras vos te servís un mate.
 
-## Licenses
+---
 
-BleachBit itself, including source code and cleaner definitions, is licensed under the [GNU General Public License version 3](COPYING), or at your option, any later version.
+## 🛠️ Tecnologías usadas
 
-markovify is licensed under the [MIT License](https://github.com/jsvine/markovify/blob/master/LICENSE.txt).
+- Python 3
+- PyGObject (para interfaz gráfica)
+- Bibliotecas estándar de Windows
 
-### Development
-* [BleachBit on AppVeyor](https://ci.appveyor.com/project/az0/bleachbit)  ![Build status](https://ci.appveyor.com/api/projects/status/7p8amofd7rv7n268?svg=true)
-* [BleachBit on Travis CI](https://travis-ci.com/github/bleachbit/bleachbit)  ![Build Status](https://travis-ci.com/bleachbit/bleachbit.svg?branch=master)
-* [LGTM](https://lgtm.com/projects/g/bleachbit/bleachbit/): code analysis
-* [CleanerML Repository](https://github.com/bleachbit/cleanerml)
-* [BleachBit Miscellaneous Repository](https://github.com/bleachbit/bleachbit-misc)
-* [Winapp2.ini Repository](https://github.com/bleachbit/winapp2.ini)
+---
+
+## 🤝 Contribuir
+
+¿Querés sumar tu granito de arena?
+
+1. Hacé un fork del repo.
+2. Creá una rama con tu mejora: `git checkout -b mi-mejora`.
+3. Hacé commit: `git commit -m "Agrego magia a La Queli"`.
+4. Subí la rama: `git push origin mi-mejora`.
+5. Creá un Pull Request.
+
+---
+
+## 📬 Contacto
+
+- Autor: **Gerónimo Méndez**
+- Mail: 📧 [geromendez199@gmail.com](mailto:geromendez199@gmail.com)
+- GitHub: 🐙 [@geromendez199](https://github.com/geromendez199)
+- Instagram: 📸 [@_geromendez_](https://instagram.com/_geromendez_)
+
+---
+
+## 📜 Licencia
+
+**La Queli** se distribuye bajo la licencia **GNU GPL v3**.  
+Podés usar, modificar y compartir el software siempre que mantengas la misma libertad para otros.
